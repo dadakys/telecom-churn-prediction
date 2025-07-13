@@ -48,4 +48,11 @@ All models were evaluated under stratified 5-fold cross-validation.
 XGBoost consistently outperformed other models across most experiments, especially in terms of F1-score and recall. Ensemble models generally showed better generalization, while simpler models struggled with balancing false positives and false negatives.
 
 ## Project Structure
+├── thesis_telecom_churn.ipynb # Jupyter Notebook with full code and analysis
+├── thesis_churn.pdf # Complete written thesis
+└── README.md # Project description and setup
 
+## Contact
+For questions or collaboration:
+- Email: dadakidisgiorgos@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/dadakys](https://www.linkedin.com/in/giorgos-dadakidis/)
