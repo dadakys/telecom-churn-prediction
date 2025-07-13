@@ -1,6 +1,6 @@
 # Customer Churn Prediction in the Telecom Sector
 
-This repository contains the source code, experimental results, and supporting resources for a thesis project titled "Customer Churn Prediction in the Telecom Sector Using Machine Learning Techniques." The thesis was submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Applied Informatics at the University of Macedonia.
+This repository contains the source code, experimental results, and supporting resources for a thesis project titled "Evaluating Machine Learning Techniques for Telecom Customer Churn Prediction." The thesis was submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Applied Informatics at the University of Macedonia.
 
 ## Thesis Overview
 
@@ -43,9 +43,12 @@ All models were evaluated under stratified 5-fold cross-validation.
 - XGBoost  
 - Neural Networks (Keras)
 
-## Results
+## Results Summary
 
-XGBoost consistently outperformed other models across most experiments, especially in terms of F1-score and recall. Ensemble models generally showed better generalization, while simpler models struggled with balancing false positives and false negatives.
+- XGBoost consistently outperformed other models across all five experiments, achieving the highest F1 scores and strong recall, especially under class weighting and SMOTE.
+- Accuracy alone proved misleading due to class imbalance; recall and F1-score were more reliable for evaluating model performance in identifying churners.
+- The neural network, when trained with SMOTE, achieved its best performance and lowest loss across all experiments, indicating improved learning stability under balanced conditions.
+- Experiments showed that handling class imbalance (via class weighting or SMOTE) is more impactful than tuning scoring metrics alone.
 
 ## Project Structure
 
