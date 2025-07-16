@@ -14,7 +14,7 @@ The aim of this project is to investigate and evaluate the performance of variou
 ## Dataset
 
 The analysis was conducted using the Cell2Cell Churn Dataset, available on Kaggle:  
-https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom
+Kaggle Dataset(https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom)
 
 It contains over 50,000 customer records with 58 features including service usage, account information, and demographics.
 
