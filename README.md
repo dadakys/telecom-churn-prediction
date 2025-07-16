@@ -2,6 +2,8 @@
 
 This repository contains the source code, experimental results, and supporting resources for a thesis project titled "Evaluating Machine Learning Techniques for Telecom Customer Churn Prediction." The thesis was submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Applied Informatics at the University of Macedonia.
 
+You can view the full research thesis related to this project [here](https://zenodo.org/records/15978511).
+
 ## Thesis Overview
 
 The aim of this project is to investigate and evaluate the performance of various machine learning algorithms in predicting customer churn—a key challenge in customer retention efforts in the telecommunications industry. The project focuses on:
@@ -14,7 +16,7 @@ The aim of this project is to investigate and evaluate the performance of variou
 ## Dataset
 
 The analysis was conducted using the Cell2Cell Churn Dataset, available on Kaggle:  
-Kaggle Dataset(https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom)
+[Kaggle Dataset](https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom)
 
 It contains over 50,000 customer records with 58 features including service usage, account information, and demographics.
 
